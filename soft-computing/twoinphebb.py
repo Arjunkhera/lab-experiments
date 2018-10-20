@@ -103,11 +103,12 @@ def drawgraph(weights,finalweights,actualop,feature1,feature2):
         it += 1
 
     # redraw the final linear separable line in solid black
-    sl = -finalweights[0]/finalweights[1]
-    inte = -finalweights[2]/finalweights[1]
-    y_vals = inte + sl * x_vals
-    plt.plot(x_vals, y_vals,color='black', linewidth=2.0)
-    plt.text(x_vals[0],y_vals[0],s,fontsize=12)
+    if(finalweights[1] != 0):
+        sl = -finalweights[0]/finalweights[1]
+        inte = -finalweights[2]/finalweights[1]
+        y_vals = inte + sl * x_vals
+        plt.plot(x_vals, y_vals,color='black', linewidth=2.0)
+        plt.text(x_vals[0],y_vals[0],s,fontsize=12)
 
 
     # store the figure
