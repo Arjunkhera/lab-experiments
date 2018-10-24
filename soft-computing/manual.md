@@ -57,4 +57,4 @@ python [path to input file] [epochs=1] [alpha=1] [threshold=0] [todraw=True]
 python [path to input file] [number of features] [threshold=0]
 ```
 
-**Node :** auto associative model is a subset of hetero associative model and can be implemented using the same program.
+**Note :** auto associative model is a subset of hetero associative model and can be implemented using the same program.

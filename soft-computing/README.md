@@ -39,18 +39,18 @@ Check manual.md
 
 ## Resources
 
-1. ** How to work with excel and pandas **
+1. **How to work with excel and pandas**
 
 Check this awesome tutorial [Dataquest](https://www.dataquest.io/blog/excel-and-pandas/)
 
-2. ** Iterating two lists simultaneously **
+2. **Iterating two lists simultaneously**
 
 [Use zip](https://stackoverflow.com/questions/1663807/how-to-iterate-through-two-lists-in-parallel)
 
-3. ** Drawing line in matplotlib given slope and intercept **
+3. **Drawing line in matplotlib given slope and intercept**
 
 [Make a funciton](https://stackoverflow.com/questions/7941226/how-to-add-line-based-on-slope-and-intercept-in-matplotlib)
 
-4. ** Working with sys arguments **
+4. **Working with sys arguments**
 
 Do not forget to cast to int when using sys arguments.
