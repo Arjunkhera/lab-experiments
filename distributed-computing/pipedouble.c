@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include<unistd.h>
 
 int main(){
@@ -7,12 +8,14 @@ int main(){
   char message[2][50] = {"written by parent","written by child"};
   char buffer[100];
 
+  // create the first pipe
   status = pipe(fdfirst);
   if(status == -1){
     printf("Unable to create the first pipe\n");
     exit(1);
   }
 
+  // create the second pipe
   status = pipe(fdsecond);
   if(status == -1){
     printf("Unable to create the second pipe\n");
@@ -24,7 +27,7 @@ int main(){
   if(pid < 0){
     printf("Unable to create a child procces \n");
     exit(1);
-  }
+  } // parent process
   else if(pid > 0){
     close(fdfirst[0]);
     close(fdsecond[1]);
@@ -36,7 +39,7 @@ int main(){
 
     read(fdsecond[0],buffer,sizeof(buffer));
     printf("Parent is reading message given by the child : %s\n",buffer);
-  }
+  } // child process
   else {
     close(fdfirst[1]);
     close(fdsecond[0]);
@@ -48,5 +51,5 @@ int main(){
     write(fdsecond[1],message[1],sizeof(message[1]));
   }
 
-  exit(0);
+  return 0;
 }
