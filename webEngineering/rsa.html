@@ -8,21 +8,36 @@
   <!-- Font -->
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
   <!-- Main css -->
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/main.css">
 
 </head>
 
 <body>
 
-  <div class="jumbotron">
-    <h1 class="display-4">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </div>
-  
+  <header>
+    <div class="container">
+      <div class="row" style="height:40%">
+          <div class="col-md-12 text-center">
+            <h1>Crypto Labs</h1>
+          </div>
+      </div>
+      <div class="row" >
+        <div class="col-md-4 text-center">
+          <button type="button" class="btn btn-primary btn-lg text-dark btn-outline-dark">RSA</button>
+        </div>
+        <div class="col-md-4 text-center">
+          <button type="button" class="btn btn-primary btn-lg text-dark btn-outline-dark">Knapsack</button>
+        </div>
+        <div class="col-md-4 text-center">
+          <button type="button" class="btn btn-primary btn-lg text-dark btn-outline-dark">DES</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
 </body>
 
 </html>
