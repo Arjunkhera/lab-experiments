@@ -1,5 +1,20 @@
 # Repository of Lab Codes
 
+[ 28.10.19 ]
+
+**Remaining programs**
+
+1. Distributed Computing
+    - semaphore
+    - rpc
+2. soft Computing
+    - backpropogation
+    - xor and xnor
+    - RNN
+3. web engineering
+    - forms
+    - backend for website
+
 [ 25.10.19 ] Currently working on soft Computing. Nearly complete.
 
 # TODO
