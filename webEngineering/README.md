@@ -11,14 +11,14 @@ Check manual.md
 - [ ] Create a web page using HTML and CSS
 - [ ] Validate forms using javascript
 - [ ] Use form controls in Web Page
-- [ ] RSA : encryption and decryption
+- [x] RSA : encryption and decryption
 - [ ] Reverse Knapsack Algorithm
-- [ ] Knapsack : encryption and decryption
+- [x] Knapsack : encryption and decryption
 - [ ] DES : key generation
 - [ ] Make a complete website
 
 ## To Do
 
-- [ ] semaphores
+- [ ] make a doc explaining the module interfaces of crpyto files
 
 ## Resources

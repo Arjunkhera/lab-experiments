@@ -3,23 +3,38 @@
 1. All Cryptographic Programs are in folder crypto
 2. In order to run these, you need all of them to be in the same folder, as they import other program files as modules
 
-
 ## Specific Instructions
 
-Cryptographic Programs
+**Modules available**
+
+1. prime
+2. gcd
+3. rsa
+4. Knapsack
+
+Check their function definitions for paramters to be passed
 
 1. **RSA**
 
-pipesingle.c
 ```bash
-gcc pipesingle.c -o test
-./test
+python rsadriver.py
 ```
 
-pipedouble.c
-```bash
-gcc pipedouble.c -o test
-./test
-```
+**You can import the rsa as a module for your programs too. Just put the following files in the same folder**
+
+- rsa
+- prime
+- gcd
+
 
 2. **Knapsack**
+
+```bash
+python knapsackdriver.py
+```
+
+**You can import the rsa as a module for your programs too. Just put the following files in the same folder**
+
+- rsa
+- prime
+- gcd

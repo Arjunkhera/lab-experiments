@@ -1,8 +1,10 @@
 import math
 import random
 import time
-import gcd
+
+# unofficial modules : store in same directory
 import prime
+import gcd
 
 # generate the public and private keys
 def generate_keys():
