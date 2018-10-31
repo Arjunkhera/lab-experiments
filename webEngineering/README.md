@@ -2,6 +2,8 @@
 
 This repository contains the codes for the experiments of Web Engineering Lab.  
 
+:fire: you can run the server from a docker container. Checkout webmanual.md for instructions
+
 ## How to Run the programs
 
 1. Check cryptomanual.md
@@ -10,13 +12,12 @@ This repository contains the codes for the experiments of Web Engineering Lab.
 ## List of experiments
 
 - [x] Create a web page using HTML and CSS
-- [ ] Validate forms using javascript
-- [ ] Use form controls in Web Page
+- [x] Validate forms using javascript
+- [x] Use form controls in Web Page
 - [x] RSA : encryption and decryption
-- [ ] Reverse Knapsack Algorithm
 - [x] Knapsack : encryption and decryption
 - [ ] DES : key generation -> will be provided by @scipsycho
-- [ ] Make a complete website
+- [x] Make a complete website
 
 ## To Do
 

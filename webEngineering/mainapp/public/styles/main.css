@@ -7,16 +7,17 @@ header {
   position: relative;
   width: 100%;
   height: 100%;
-  background-image: url(../images/gaseous.jpg);
+  background-image: url(../images/crowdstrike.gif);
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
 }
 
 h1 {
-    color: #ffe0c2;
-    font-size: 150px;
-    font-weight: 200;
+    // color: #000000;
+    color: #ffffff;
+    font-size: 200px;
+    font-weight: 500;
     letter-spacing: -1px;
 }
 
