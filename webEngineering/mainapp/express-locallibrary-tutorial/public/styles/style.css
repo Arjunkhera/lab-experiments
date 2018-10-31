@@ -1,0 +1,41 @@
+body, html{
+     width: 100%;
+     height: 100%;
+}
+header {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/astronomy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+h1 {
+    color: #ffe0c2;
+    font-size: 200px;
+    font-weight: 200;
+    letter-spacing: -1px;
+}
+
+.container {
+  padding-top: 25px;
+  padding-bottom: 100px;
+}
+
+.row {
+  margin-top: 100px;
+}
+
+.btn{
+  background-color: #ffe0c2;
+}
+
+.btn:hover{
+  background-color: #B9916A;
+}
+
+.text-primary {
+  color : #000000;
+}
