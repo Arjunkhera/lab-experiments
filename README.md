@@ -1,20 +1,20 @@
 # Repository of Lab Codes
 
-[ 31.10.19 ]
+[ 3.11.18 ]
+
+Web engineering lab work complete.  
+DES program provided by [scipsycho](https://github.com/scipsycho).   
 
 **Remaining programs**
 
-Web engineering lab work complete  
-
-1. Distributed Computing
+1. Distributed Computing -> expected date of completion by next week
     - semaphore
     - rpc
-2. soft Computing
+2. soft Computing -> to be completed by 4.11.18
     - backpropogation
     - xor and xnor
     - RNN
-
-[ 25.10.19 ] Currently working on soft Computing. Nearly complete.
+3. Compiler Lab -> expected date of completion by next week
 
 # TODO
 
