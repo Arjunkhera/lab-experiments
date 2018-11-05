@@ -14,7 +14,7 @@ Check manual.md
 
 - [x] Using Neural Network Implement Perceptron Learning Algorithm
 
-- [ ] Using Neural Network Perform the implementation of XOR and XNOR
+- [x] Using Neural Network Perform the implementation of XOR and XNOR
 
 - [x] Implement McCulloch-Pits Neural Network
 
@@ -22,7 +22,7 @@ Check manual.md
 
 - [x] Implement Adaline Network
 
-- [ ] Implement Backpropagation used in  neural networks
+- [x] Implement Backpropagation used in  neural networks
 
 - [x] Implement Auto Associative Neural Networks
 
@@ -30,7 +30,7 @@ Check manual.md
 
 - [ ] Implement recurrent neural network (RNN)
 
-- [ ] Any application based on any model of Neural Networks
+- [x] Any application based on any model of Neural Networks
 
 ## To Do
 

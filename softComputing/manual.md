@@ -57,4 +57,15 @@ python [path to input file] [epochs=1] [alpha=1] [threshold=0] [todraw=True]
 python [path to input file] [number of features] [threshold=0]
 ```
 
+6 **Back Propagation**
+
+Structure excel file : write the number of nodes in every hidden layer in the first row column wise
+
+```bash
+python [path to neural structure] [path to training data] [outputClasses=1] [epochs=1000] [alpha=0.1]
+
+# example
+python backpropagation.py "./inputs/structure.xlsx" "./inputs/binary-xor.xlsx" 1 1000 0.3
+```
+
 **Note :** auto associative model is a subset of hetero associative model and can be implemented using the same program.

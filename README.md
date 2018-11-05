@@ -1,9 +1,11 @@
 # Repository of Lab Codes
 
-[ 3.11.18 ]
+[ 5.11.18 ]
 
-Web engineering lab work complete.  
-DES program provided by [scipsycho](https://github.com/scipsycho).   
+#### Backpropagation completed. Highly flexible. You can specify the number of hidden layers, number of nodes in each layer, the number of output classes, alpha and epochs.
+
+**Web engineering lab work complete.**  
+**DES program provided by [scipsycho](https://github.com/scipsycho).**
 
 **Remaining programs**
 
@@ -11,8 +13,6 @@ DES program provided by [scipsycho](https://github.com/scipsycho).
     - semaphore
     - rpc
 2. soft Computing -> to be completed by 4.11.18
-    - backpropogation
-    - xor and xnor
     - RNN
 3. Compiler Lab -> expected date of completion by next week
 
