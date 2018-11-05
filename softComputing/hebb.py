@@ -126,7 +126,7 @@ class hebb:
         self.finalop = [ 1 if x >= self.threshold else -1 for x in yin ]
 
         return self.finalop
-        
+
 if __name__ == '__main__':
 
     filename = sys.argv[1]

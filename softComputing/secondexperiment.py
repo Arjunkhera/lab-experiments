@@ -9,11 +9,11 @@ import sys
 if __name__ == '__main__':
 
     # path to the input file
-    filename = sys.argv[1]
-    epochs = int(sys.argv[2])
-    alpha = int(sys.argv[3])
-    threshold = int(sys.argv[4])
-    inptype = bool(sys.argv[5])
+    filename = "./inputs/bipolar-or.xlsx"
+    epochs = 2
+    alpha = 1
+    threshold = 0
+    inptype = True
 
     # Initialize the model
     p = percep.perceptron(filename,epochs,alpha,threshold,inptype)

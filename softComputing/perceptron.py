@@ -66,7 +66,7 @@ class graph:
 
 class perceptron:
 
-    def __init__(self,filename,pochs=1,alpha=1,threshold=0,flag=True,todraw=True):
+    def __init__(self,filename,epochs=1,alpha=1,threshold=0,flag=True,todraw=True):
 
         # number of epochs
         self.epochs = epochs
@@ -158,7 +158,7 @@ if __name__ == '__main__':
 
     # path to the input file
     filename = sys.argv[1]
-    
+
     epochs = int(sys.argv[2])
     alpha = float(sys.argv[3])
     threshold = float(sys.argv[4])
