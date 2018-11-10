@@ -10,17 +10,17 @@ int litcount = 0;
 
 %%
 
-main	printf("KW");
-float	printf("KW");
-int	printf("KW");
-return	printf("KW");
-break	printf("KW");
-if	printf("KW");
-else	printf("KW");
-cin	printf("KW");
-cout	printf("KW");
-#include	printf("INCLUDE ");
-\<stdio\.h\> printf("HEADER");
+main	        printf("KW");
+float	        printf("KW");
+int	            printf("KW");
+return	        printf("KW");
+break	        printf("KW");
+if	            printf("KW");
+else	        printf("KW");
+cin	            printf("KW");
+cout	        printf("KW");
+#include	    printf("INCLUDE ");
+\<stdio\.h\>    printf("HEADER");
 
 
 \"(\\.|[^"\\])*\"	printf("STR%d",litcount++);
@@ -29,7 +29,7 @@ cout	printf("KW");
 
 == 	printf("relop=");
 \> 	printf("relop>");
-\< 	printf("equalop<");
+\< 	printf("relop<");
 = 	printf("equalop");
 
 \+	printf("addop");
@@ -48,11 +48,13 @@ cout	printf("KW");
 %%
 
 
-int yywrap(){}
+int yywrap(){
+    return 1;
+}
 
 int main(){
 
-yylex();
+    yylex();
 
-return 0;
+    return 0;
 }

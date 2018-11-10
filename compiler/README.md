@@ -6,7 +6,7 @@ This repository contains the codes for the experiments of Compiler Lab.
 
 Following is the list of assignments of compiler lab:
 
-- [ ] Write a program to convert infix to postfix using Lex and Yacc.
+- [x] Write a program to convert infix to postfix using Lex and Yacc.
 - [ ] Write a program to implement symbols table.
 - [ ] Write a program to implement simple calculator using Lex and Yacc.
 - [ ] Write a program to implement lexical analyzer for C language.
