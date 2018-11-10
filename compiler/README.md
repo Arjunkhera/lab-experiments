@@ -1,29 +1,27 @@
-# Web Engineering Lab
+# Compiler Design Lab
 
-This repository contains the codes for the experiments of Compiler Lab.  
-
-
-## How to Run the programs
-
-1. Check cryptomanual.md
-2. Check webmanual.md
+This repository contains the codes for the experiments of Compiler Lab. 
 
 ## List of experiments
 
-- [x] Create a web page using HTML and CSS
-- [x] Validate forms using javascript
-- [x] Use form controls in Web Page
-- [x] RSA : encryption and decryption
-- [x] Knapsack : encryption and decryption
-- [ ] DES : key generation -> will be provided by @scipsycho
-- [x] Make a complete website
+Following is the list of assignments of compiler lab:
+
+- [ ] Write a program to convert infix to postfix using Lex and Yacc.
+- [ ] Write a program to implement symbols table.
+- [ ] Write a program to implement simple calculator using Lex and Yacc.
+- [ ] Write a program to implement lexical analyzer for C language.
+- [ ] Write a program to implement parser for C language.
+- [ ] Generate three address code for selected C statements.
 
 ## To Do
 
-- [ ] make a doc explaining the module interfaces of crpyto files
+- [ ] Complete all the programs
 
 ## Resources
 
 1. :fire: Awesome Places to get started with lex and yacc
 
-[tldp](https://www.tldp.org/HOWTO/Lex-YACC-HOWTO-1.html)
+    * [great start:pdf](https://www2.cs.arizona.edu/classes/cs453/fall14/DOCS/tutorial-large.pdf)
+    * [tldp](https://www.tldp.org/HOWTO/Lex-YACC-HOWTO-1.html)
+
+
