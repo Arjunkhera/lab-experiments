@@ -170,11 +170,9 @@ class BackPropagation():
             return 1 / (1 + np.exp(-x))
 
     def returnOutput(self) -> list:
-
         # for single class output
         if(self.outputClasses == 1):
-            for i in self.activations:
-                self.op = (i >= 0.5).astype(int).tolist()
+            self.op = (self.activations[self.totalLayers-1] >= 0.5).astype(int).tolist()
             return self.op
 
         # for multiclass output

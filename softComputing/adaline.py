@@ -97,7 +97,7 @@ class adaline:
         checkdraw = lambda num : False if num > 2 else True
         self.todraw = checkdraw(self.no_features)
 
-        # Initialize the weights and bias as zero
+        # Initialize the weights and bias as some non zero value
         self.weights = [ 0.1 for x in range(self.no_features)]
         self.bias = 0.1
 
@@ -188,7 +188,7 @@ if __name__ == '__main__':
 
     # path to the input file
     filename = sys.argv[1]
-    
+
     epochs = int(sys.argv[2])
     alpha = float(sys.argv[3])
     threshold = float(sys.argv[4])

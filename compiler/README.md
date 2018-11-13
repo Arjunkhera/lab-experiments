@@ -8,8 +8,8 @@ Following is the list of assignments of compiler lab:
 
 - [x] Write a program to convert infix to postfix using Lex and Yacc.
 - [ ] Write a program to implement symbols table.
-- [ ] Write a program to implement simple calculator using Lex and Yacc.
-- [ ] Write a program to implement lexical analyzer for C language.
+- [x] Write a program to implement simple calculator using Lex and Yacc.
+- [x] Write a program to implement lexical analyzer for C language.
 - [ ] Write a program to implement parser for C language.
 - [ ] Generate three address code for selected C statements.
 

@@ -6,7 +6,7 @@ if __name__ == '__main__':
     print("Training on XOR")
     # provide the path to neural network structure and input file
     backprop = BackPropagation("./inputs/structure.xlsx","./inputs/binary-xor.xlsx")
-    backprop.epochs = 1000
+    backprop.epochs = 2000
     backprop.alpha = 0.5
 
     # to train the model
@@ -21,7 +21,7 @@ if __name__ == '__main__':
     print("Training on XNOR")
     # provide the path to neural network structure and input file
     backprop = BackPropagation("./inputs/structure.xlsx","./inputs/binary-xnor.xlsx")
-    backprop.epochs = 1000
+    backprop.epochs = 2000
     backprop.alpha = 0.5
 
     # to train the model
