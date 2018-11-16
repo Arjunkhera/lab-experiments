@@ -16,7 +16,7 @@ Check manual.md
 
 - [x] Using Neural Network Perform the implementation of XOR and XNOR
 
-- [x] Implement McCulloch-Pits Neural Network
+- [x] Implement McCulloch-Pitts Neural Network
 
 - [x] Implement Hebb Net Network
 

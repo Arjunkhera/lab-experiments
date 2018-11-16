@@ -178,6 +178,8 @@ class adaline:
             self.msq.append(ithmsq/self.no_rows)
             self.totalmsq.append(ithmsq)
 
+            print(ad.totalmsq)
+
         # redraw the final line
         if(self.todraw):
             g.draw(self.weights+[self.bias],i+j/10,True)
@@ -197,6 +199,7 @@ if __name__ == '__main__':
     # Initialize the model
     # epochs,alpha,threshold
     ad = adaline(filename,epochs,alpha,threshold,todraw)
+
 
     # train the model on the input
     ad.calculate()
