@@ -32,6 +32,19 @@ struct sembuf {
 
 int semctl(int semid, int semnum, int cmd, …)
 
+union semun {
+   int val; /* val for SETVAL */
+   struct semid_ds *buf; /* Buffer for IPC_STAT and IPC_SET */
+   unsigned short *array; /* Buffer for GETALL and SETALL */
+   struct seminfo *__buf; /* Buffer for IPC_INFO and SEM_INFO*/
+};
+
+struct semid_ds {
+   struct ipc_perm sem_perm; /* Permissions */
+   time_t sem_otime; /* Last semop time */
+   time_t sem_ctime; /* Last change time */
+   unsigned long sem_nsems; /* Number of semaphores in the set */
+};
 ```
 
 ```

@@ -16,8 +16,6 @@ int main() {
    strcpy(end_str,"stop");
 
    printf("Send messages and to stop enter \"stop\"\n");
-   // create the fifo file
-   // mkfifo(FIFO_FILE,06);
    // open the named pipe
    fd = open(FIFO_FILE,O_CREAT|O_WRONLY);
 

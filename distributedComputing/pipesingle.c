@@ -7,7 +7,7 @@ int main(){
   char message[2][50] = { "written by parent","written by child"};
   char buffer[100];
 
-  // creat a pipe
+  // create a pipe
   status = pipe(fd);
   if(status == -1){
     printf("Unable to create a pipe\n");
