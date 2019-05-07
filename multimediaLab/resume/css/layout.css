@@ -1,0 +1,139 @@
+body, html {
+    height: 100%;
+}
+
+.wrapper {
+  height : 65%;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: mrrobot;
+    src: url(../fonts/MrRobot.ttf);
+}
+
+img {
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+h1 {
+    display: block;
+    font-family: mrrobot;
+    font-size: 150px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    color : red;
+}
+
+h3 {
+    display: block;
+    font-family: 'Merriweather Sans', sans-serif;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 10px;
+    margin-right: 0;
+    color : #ED7474;
+}
+
+.wrapper {
+  padding-top: 90px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  display: flex;
+}
+
+.edu{
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  align : left;
+  padding-left : 0px;
+  color : red;
+  font-weight: bold;
+
+}
+
+.skills{
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+#cr21 {
+
+}
+
+.normalflex {
+  display: flex;
+  padding: 10px 10px 10px 20px;
+}
+
+.achievements{
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skillsimage {
+  height : 100px;
+  width :  100px;
+  float: left;
+  padding: 0 0px 50px 0;
+
+}
+
+#col1 {
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.5;
+}
+
+#col2 {
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.5;
+}
+
+#col3 {
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.5;
+}

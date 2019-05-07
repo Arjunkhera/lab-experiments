@@ -1,0 +1,75 @@
+
+#box{
+    width: auto;
+    background-image: url("../images/background.jpg");
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#headertext {
+  margin-left : 400px;
+}
+
+@font-face {
+    font-family: mrrobot;
+    src: url(../fonts/MrRobot.ttf);
+}
+
+h1{
+    font-size: 70px;
+    font-family: mrrobot;
+    align-content: center;
+    padding: 10px 430px;
+    margin: 0px 0px 100px 0px;
+}
+
+#key{
+    height: 490px;
+    width: 1280px;
+    margin: 10px 70px;
+    //background-color: black;
+}
+
+.white{
+    height: 430px;
+    width: 120px;
+    background-color: white;
+    margin: 30px 4px;
+    float: left;
+
+}
+
+.black{
+    height: 320px;
+    width: 98px;
+    background-color: black;
+    float: left;
+    //margin: 0px -46px 0px -46px;
+    position: absolute;
+}
+
+.white:hover{
+    transform: scale(1.046);
+}
+
+.black:hover{
+    transform: scale(1.08);
+}
+
+#one{
+    margin: 20px 0px 0px 207px;
+}
+
+#two{
+    margin: 20px 0px 0px 463px;
+}
+
+#three{
+    margin: 20px 0px 0px 719px;
+}
+
+#four{
+    margin: 20px 0px 0px 975px;
+}
