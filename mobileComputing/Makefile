@@ -1,5 +1,8 @@
-stats:
-	bash findDropPackets.sh out.tr
+run:
+	bash runProgram.sh ${name}
+
+stat:
+	bash stat.sh ${name}
 
 clean:
-	rm -rf out.tr out.nam 
+	rm -rf out.tr out.nam

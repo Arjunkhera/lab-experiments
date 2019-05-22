@@ -9,15 +9,23 @@ $ns color 2 Red
 set nf [open out.nam w]
 $ns namtrace-all $nf
 
-#Define a 'finish' procedure
+#Open the trace file
+set nt [open out.tr w]
+$ns trace-all $nt
+
+#Define the finish procedure
 proc finish {} {
-        global ns nf
-        $ns flush-trace
-	#Close the trace file
-        close $nf
-	#Execute nam on the trace file
-        exec nam out.nam &
-        exit 0
+    global ns nf nt
+    $ns flush-trace
+
+    #Close the trace file
+    close $nf
+    close $nt
+
+    #Execute nam on the trace file
+    exec nam out.nam &
+
+    exit 0
 }
 
 #Create four nodes
@@ -65,7 +73,7 @@ set null0 [new Agent/Null]
 $ns attach-agent $n3 $null0
 
 #Connect the traffic sources with the traffic sink
-$ns connect $udp0 $null0  
+$ns connect $udp0 $null0
 $ns connect $udp1 $null0
 
 #Schedule events for the CBR agents
