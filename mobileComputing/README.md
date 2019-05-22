@@ -30,11 +30,12 @@ awk -f nameOfAwkFile.awk nameOfTraceFile.tr
 ## List of Experiments
 
     - [x] Implement Point to Point Network for three nodes and find number of dropped packets
-    - [ ] Implement transmission of Ping Messages and Traceroute for network of 6 nodes. Find number of dropped packets, hops and intermediate node ids
+    - [x] Implement transmission of Ping Messages and Traceroute for network of 6 nodes. Find number of dropped packets, hops and intermediate node ids
     - [x] Implement Ethernent Lan using n nodes. Set multiple traffic nodes and plot congestion window for different source/destination
     - [x] Implement and study the performance of GSM using MAC layer
     - [ ] Implement and study the performance of CDMA using stack
     - [x] Simulate AdHoc Mobile Network
+    - [x] Simulate Research Paper
 
 ## Resources
 
