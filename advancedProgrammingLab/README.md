@@ -3,7 +3,8 @@
 1. This folder contains the codes for experiments of the Advanced Programming Lab
 2. The codes are written in C++
 
-***Some sample inputs have been provided in the input folder*** 
+***Some sample inputs have been provided in the input folder***  
+  
 ***Pictures of outputs have been provided in the output folder***
 
 
